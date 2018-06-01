@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E4B42D520C09F2C000144C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B42D420C09F2C000144C5 /* AppDelegate.swift */; };
+		6E4B42D720C09F2C000144C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B42D620C09F2C000144C5 /* ViewController.swift */; };
+		6E4B42DA20C09F2C000144C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B42D820C09F2C000144C5 /* Main.storyboard */; };
+		6E4B42DC20C09F2E000144C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B42DB20C09F2E000144C5 /* Assets.xcassets */; };
+		6E4B42DF20C09F2E000144C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B42DD20C09F2E000144C5 /* LaunchScreen.storyboard */; };
+		6E4B42E720C0A0B5000144C5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B42E620C0A0B5000144C5 /* ViewController2.swift */; };
+		6E5EED0D20C0A833003EA8C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EED0C20C0A833003EA8C0 /* GoogleService-Info.plist */; };
+		6E5EED1020C0AA7D003EA8C0 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5EED0F20C0AA7D003EA8C0 /* GoogleMobileAds.framework */; };
+		B9B272AED4228749511C9184 /* Pods_fastOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D49A131D87BAA882C97BA82 /* Pods_fastOne.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D49A131D87BAA882C97BA82 /* Pods_fastOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fastOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4B42D120C09F2C000144C5 /* fastOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4B42D420C09F2C000144C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4B42D620C09F2C000144C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E4B42D920C09F2C000144C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E4B42DB20C09F2E000144C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E4B42DE20C09F2E000144C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E4B42E020C09F2E000144C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4B42E620C0A0B5000144C5 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		6E5EED0C20C0A833003EA8C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E5EED0E20C0A901003EA8C0 /* fastOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fastOne.entitlements; sourceTree = "<group>"; };
+		6E5EED0F20C0AA7D003EA8C0 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		85A253559413BB24923134C3 /* Pods-fastOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-fastOne/Pods-fastOne.release.xcconfig"; sourceTree = "<group>"; };
+		EBFFCDEED0501723127A55B0 /* Pods-fastOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fastOne/Pods-fastOne.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E4B42CE20C09F2C000144C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5EED1020C0AA7D003EA8C0 /* GoogleMobileAds.framework in Frameworks */,
+				B9B272AED4228749511C9184 /* Pods_fastOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A8A0725BBF480FD6EDA5A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D49A131D87BAA882C97BA82 /* Pods_fastOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E4B42C820C09F2C000144C5 = {
+			isa = PBXGroup;
+			children = (
+				6E4B42D320C09F2C000144C5 /* fastOne */,
+				6E4B42D220C09F2C000144C5 /* Products */,
+				C25C928759DBD7975D53A6D9 /* Pods */,
+				6A8A0725BBF480FD6EDA5A0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E4B42D220C09F2C000144C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B42D120C09F2C000144C5 /* fastOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4B42D320C09F2C000144C5 /* fastOne */ = {
+			isa = PBXGroup;
+			children = (
+				6E5EED0E20C0A901003EA8C0 /* fastOne.entitlements */,
+				6E4B42D420C09F2C000144C5 /* AppDelegate.swift */,
+				6E4B42D620C09F2C000144C5 /* ViewController.swift */,
+				6E4B42E620C0A0B5000144C5 /* ViewController2.swift */,
+				6E4B42D820C09F2C000144C5 /* Main.storyboard */,
+				6E4B42DB20C09F2E000144C5 /* Assets.xcassets */,
+				6E5EED0F20C0AA7D003EA8C0 /* GoogleMobileAds.framework */,
+				6E4B42DD20C09F2E000144C5 /* LaunchScreen.storyboard */,
+				6E5EED0C20C0A833003EA8C0 /* GoogleService-Info.plist */,
+				6E4B42E020C09F2E000144C5 /* Info.plist */,
+			);
+			path = fastOne;
+			sourceTree = "<group>";
+		};
+		C25C928759DBD7975D53A6D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBFFCDEED0501723127A55B0 /* Pods-fastOne.debug.xcconfig */,
+				85A253559413BB24923134C3 /* Pods-fastOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E4B42D020C09F2C000144C5 /* fastOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E4B42E320C09F2E000144C5 /* Build configuration list for PBXNativeTarget "fastOne" */;
+			buildPhases = (
+				5FE5621C25F2AEB0BD9A886A /* [CP] Check Pods Manifest.lock */,
+				6E4B42CD20C09F2C000144C5 /* Sources */,
+				6E4B42CE20C09F2C000144C5 /* Frameworks */,
+				6E4B42CF20C09F2C000144C5 /* Resources */,
+				6F53AD6461EE8B26AE8E8831 /* [CP] Embed Pods Frameworks */,
+				006A25C22F61E9EA89E4B634 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastOne;
+			productName = fastOne;
+			productReference = 6E4B42D120C09F2C000144C5 /* fastOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E4B42C920C09F2C000144C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Naruto;
+				TargetAttributes = {
+					6E4B42D020C09F2C000144C5 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6E4B42CC20C09F2C000144C5 /* Build configuration list for PBXProject "fastOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E4B42C820C09F2C000144C5;
+			productRefGroup = 6E4B42D220C09F2C000144C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E4B42D020C09F2C000144C5 /* fastOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E4B42CF20C09F2C000144C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4B42DF20C09F2E000144C5 /* LaunchScreen.storyboard in Resources */,
+				6E5EED0D20C0A833003EA8C0 /* GoogleService-Info.plist in Resources */,
+				6E4B42DC20C09F2E000144C5 /* Assets.xcassets in Resources */,
+				6E4B42DA20C09F2C000144C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006A25C22F61E9EA89E4B634 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fastOne/Pods-fastOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE5621C25F2AEB0BD9A886A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fastOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F53AD6461EE8B26AE8E8831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fastOne/Pods-fastOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fastOne/Pods-fastOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E4B42CD20C09F2C000144C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4B42D720C09F2C000144C5 /* ViewController.swift in Sources */,
+				6E4B42D520C09F2C000144C5 /* AppDelegate.swift in Sources */,
+				6E4B42E720C0A0B5000144C5 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E4B42D820C09F2C000144C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4B42D920C09F2C000144C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E4B42DD20C09F2E000144C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4B42DE20C09F2E000144C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E4B42E120C09F2E000144C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E4B42E220C09F2E000144C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E4B42E420C09F2E000144C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFFCDEED0501723127A55B0 /* Pods-fastOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fastOne/fastOne.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV97B669D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fastOne",
+				);
+				INFOPLIST_FILE = fastOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scar-Naruto.fastOne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E4B42E520C09F2E000144C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A253559413BB24923134C3 /* Pods-fastOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fastOne/fastOne.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV97B669D8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fastOne",
+				);
+				INFOPLIST_FILE = fastOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scar-Naruto.fastOne";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E4B42CC20C09F2C000144C5 /* Build configuration list for PBXProject "fastOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4B42E120C09F2E000144C5 /* Debug */,
+				6E4B42E220C09F2E000144C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E4B42E320C09F2E000144C5 /* Build configuration list for PBXNativeTarget "fastOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4B42E420C09F2E000144C5 /* Debug */,
+				6E4B42E520C09F2E000144C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E4B42C920C09F2C000144C5 /* Project object */;
+}
